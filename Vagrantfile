@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
 
     # Start worpress machine
     config.vm.define "wordpress" do |m|
-        m.vm.network "private_network", ip: "192.168.56.0"
+        m.vm.network "private_network", ip: "192.168.56.10"
     end
 
 end
