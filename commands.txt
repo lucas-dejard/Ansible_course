@@ -1,151 +1,8 @@
-    1  java -version
-    2  sudo apt install default-jdk
-    3  java -version
-    4  npm -version
-    5  sudo apt install npm
-    6  npm -version
-    7  npm install appium
-    8  sudo apt-get install curl
-    9  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-   10  sudo apt-get install -y nodejs
-   11  brew install node
-   12  install -g appium
-   13  npm install -g appium
-   14  npm install node
-   15  npm install -g appium
-   16  npm install appium
-   17  npm audit fix
-   18  npm install appium
-   19  npm init
-   20  npm install appium
-   21  npm install node
-   22  npm install appium
-   23  node -version
-   24  npm node -version
-   25  chmod u+x Appium-linux-1.13.0.AppImage
-   26  ./Appium-linux-1.13.0.AppImage
-   27  adb devices
-   28  sudo apt install adb
-   29  adb devices
-   30  npm install -g appium-doctor --android
-   31  find /usr/lib/jvm/java-1.x.x-openjdk
-   32  find /usr/lib/jvm/
-   33  sudo vi /etc/environment
-   34  java -version
-   35  cd /usr/lib/jvm
-   36  ls -lh
-   37  export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
-   38  echo $JAVA_HOME
-   39  nano ~/.bashrc
-   40  source ~/.bashrc
-   41  echo $JAVA_HOME
-   42  nano ~/.bashrc
-   43  source ~/.bashrc
-   44  echo $JAVA_HOME
-   45  adb devices
-   46  adb RX8RA0239TV
-   47  adb devices
-   48  adb install com.novapontocom.casasbahia.apk
-   49  sudo apt install inxi
-   50  adb devices
-   51  adb shell input keyevent 26
-   52  adb shell input keyevent 66
-   53  adb shell settings put global airplane_mode_on 0
-   54  adb shell pm list package
-   55  adb shell dumpsys window windows | grep -E 'mCurrentFocus'
-   56  adb devices
-   57  adb shell pm list package
-   58  adb shell pm path com.microsoft.teams
-   59  adb shell pm path com.canva.editor
-   60  adb shell dumpsys window windows | grep -E 'mCurrentFocus'
-   61  adb shell dumpsys window windows | grep mFocusedApp
-   62  adb shell dumpsys window windows | grep mCurrentFocus
-   63  adb shell dumpsys window | grep mCurrentFocus
-   64  install node
-   65  sudo apt install node
-   66  node
-   67  npm install Appium
-   68  npm intall apium
-   69  npm instal appium
-   70  npm uninstal appium
-   71  npm instal appium
-   72  npm run appium
-   73  appium
-   74  appium-doctor
-   75  npm install -g appium-doctor
-   76  npm install -g appium-doctor -location=global
-   77  npm install -g -location=global appium-doctor
-   78  npm install -location=global appium-doctor
-   79  sudo npm install -g appium --unsafe-perm=true --allow-root
-   80  appium
-   81  npm init -y
-   82  npm install webdriverio
-   83  sudo apt update
-   84  sudo apt upgrade
-   85  sudo apt install git
-   86  clear
-   87  cd Documentos/GitHub/API-Tests
-   88  python '1 test.py'
-   89  python3 '1 test.py'
-   90  pip install ipdb
-   91  python3 '1 test.py'
-   92  request.json()
-   93  cd Documentos/GitHub/API-Tests
-   94  python '1 test.py'
-   95  python3 '1 test.py'
-   96  ipdb
-   97  ipdb3
-   98  sudo apt install python3-ipdb
-   99  python3 '1 test.py'
-  100  ipdb3
-  101  python '1 test.py'
-  102  python
-  103  sudo apt install python
-  104  python
-  105  python '1 test.py'
-  106  request.json()
-  107  ls
-  108  python3 '1test.py'
-  109  python3 '1 test.py'
-  110  pip install flask flask-restx
-  111  flask
-  112  sudo apt install python3-flask
-  113  source APIenv/bin/activate
-  114  cd live134
-  115  cd live 134
-  116  cd 'live 134'
-  117  flask run
-  118  flask routes
-  119  flask run
-  120  source APIenv/bin/activate
-  121  cd 'live 134'
-  122  flask run
-  123  cd 'live 134'
-  124  pytest '2 test.py'
-  125  sudo apt install pytest
-  126  python apt install python-pytest
-  127  sudo python apt install python-pytest
-  128  sudo python3 apt install python-pytest
-  129  pip install pytest
-  130  pytest '2 test.py'
-  131  pip install behave
-  132  behave
-  133  cd Documentos/GitHub/API-Tests
-  134  cd 'live 134'
-  135  flask run
-  136  cd Documentos/GitHub/API-Tests
-  137  cd 'live 134'
-  138  flask run
-  139  cd Documentos/GitHub/API-Tests
-  140  flask run
-  141  cd 'live 134'
-  142  flask run
+# comandos de instalação vagrant
+
   143  cd Documentos/ambiente_dev
   144  vagrant ssh-config
-  145  ssh -p 2222 vagrant@127.0.0.1
-  146  vagrant ssh-config
-  147  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-  148  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  145  ssh -p 2222 vagrant@x.x.x.y
   149  sudo apt-get update && sudo apt-get install vagrant
   150  vagrant
   151  vagrant version
@@ -154,27 +11,11 @@
   154  vagrant up
   155  vagrant status
   156  vagrant ssh
-  157  cls
+  157  
   158  clear
-  159  cd ..
-  160  cd Downloads
-  161  tar putty-0.77.tar.gz
-  162  tar -zxvf putty-0.77.tar.gz
-  163  cd putty-0.77
-  164  cmake .
-  165  cmake --build .
-  166  cmake
-  167  cd cmake
-  168  cmake .
-  169  cmake --build . --target install
-  170  sudo snap install cmake
-  171  sudo snap install cmake --classic
-  172  cd ..
-  173  cmake .
-  174  cmake --build .
-  175  cmake --build . --target install
-  176  sudo cmake --build . --target install
-  177  putty
+  
+# instalação putty
+
   178  sudo apt install putty
   179  putty
   180  puttygen
@@ -197,265 +38,27 @@
   197  puttygen private_key -o chave-precise.ppk
   198  puttygen -t rsa -b 2048 chave2.ppk
   199  ls
-  200  puttygen private_key -o chave2.ppk
-  201  puttygen -t rsa -b 2048 -o chave3.ppk
-  202  puttygen privatekey.ppk -O private-openssh -o chavezin.ppk
-  203  puttygen privatekey -O private-openssh -o chavezin.ppk
-  204  puttygen private_key -O private-openssh -o chavezin.ppk
-  205  puttygen private_key.ppk -O private-openssh -o chavezin.ppk
-  206  puttygen private_key.ppk -O private-openssh -o chavezin.pem
-  207  puttygen private_key -O private-openssh -o chavezin.pem
-  208  puttygen private_key -O private-openssh
-  209  puttygen
-  210  puttygen private_key -t rsa -b 2048
-  211  puttygen private_key -t rsa -b 2048 -o keyt.ppk
-  212  puttygen private_key -t rsa
-  213  puttygen private_key
-  214  puttygen private_key -o last.ppk
-  215  puttygen -t rsa -b 2048 -C "user@host" -o keyfile.ppk
-  216  sudo apt install putty-tools
-  217  puttygen -t rsa -b 2048 -C "user@host" -o keyfile.ppk
-  218  sudo puttygen private_key.pem -o chavevai.ppk -O private
-  219  sudo puttygen private_key -o chavevai.ppk -O private
-  220  cd ..
-  221  ls
-  222  vagrant halt
-  223  vagrant status
-  224  ls
-  225  cd ..
-  226  ls
-  227  cd ..
-  228  ls
-  229  cd lades
-  230  vagrantfile
-  231  vagrant status
-  232  vagrantfile
-  233  ls
-  234  vagrant up
-  235  vagrant status
-  236  vagrant ssh
-  237  vagrant status
-  238  vagrant halt
-  239  vagrant up
-  240  vagrant status
-  241  vagrant halt
-  242  vagrant up
-  243  vagrant status
-  244  vagrant up
-  245  vagrant status
+  
+  # configuração de ip
+  
   246  ipconfig
   247  ifconfig
   248  sudo apt install net-tools
-  249  ifconfig
   250  ping 192.168.56.4
-  251  clear
-  252  vagrant status
-  253  vagrant halt
-  254  vagrant destroy
-  255  vagrant up
-  256  clear
-  257  ifconfig
-  258  vagrant ssh
-  259  vagrant reload
-  260  vagrant status
-  261  ifconfig
-  262  vagrant ssh
-  263  vagrant reload
-  264  vagrant status
-  265  vagrant ssh
-  266  ls
-  267  cd Documentos
-  268  ls
-  269  cd ambiente_dev
-  270  ls
-  271  cd bionic
-  272  ls
-  273  vagrant status
-  274  ssh vagrant@192.168.0.102
-  275  vagrant ssh
-  276  vagrant ssh-config
-  277  ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.0.102
-  278  vagrant halt
+  
+  #comando de ver o documento
+  
   279  cat known_hosts
   280  rm  known_hosts
-  281  vagrant status
-  282  ls
-  283  cd Documentos
-  284  ls
-  285  cd ambiente_dev
-  286  ls
-  287  cd bionic
-  288  ls
-  289  vagrant up
-  290  vagrant status
-  291  ssh-keygen
-  292  ssh-keygen -t rsa
-  293  clear
-  294  ls
-  295  vagrant ssh
-  296  clear
-  297  ls
-  298  ssh -i id_bionic vagrant@192.168.0.2
-  299  if_config
-  300  ifconfig
-  301  ssh -i id_bionic vagrant@192.168.0.109
-  302  ssh -i id_bionic vagrant@192.168.0.255
-  303  vagrant ssh
-  304  ssh -i id_bionic vagrant@192.168.0.102
-  305  vagrant reload
-  306  vagrant provision
-  307  vagrant reload
-  308  vagrant ssh
-  309  vagrant provision
-  310  vagrant ssh
-  311  vagrant reload
-  312  vagrant ssh
-  313  vagrant destroy
-  314  vagrant status
-  315  vagrant destroy
-  316  vagrant status
-  317  vagrant up
-  318  vagrant ssh
-  319  ssh -i id_bionic vagrant@192.168.0.102
-  320  vagrant destroy
-  321  vagrant up
-  322  vagrant ssh
-  323  vagrant destroy
-  324  vagrant up
-  325  vagrant ssh
-  326  vagrant provision
-  327  vagrant ssh
-  328  vagrant destroy
-  329  vagrant status
-  330  vagrant up
-  331  vagrant status
-  332  sudo vagrant up phpweb
-  333  vagrant status
-  334  vagrant up phpweb
-  335  vagrant ssh phpweb
-  336  vagrant ssh-config
-  337  vagrant status
-  338  exit
-  339  vagrant halt
-  340  cd Documentos
-  341  cd ambiente_dev
-  342  ls
-  343  vagrant status
-  344  cd bionic
-  345  vagrant status
-  346  vagrant halt
-  347  vagrant status
-  348  ls
-  349  cd ..
-  350  ls
-  351  cd ..
-  352  ls
-  353  vagrant up
-  354  vagrant ssh
-  355  vagrant ssh phpweb
-  356  vagrant destroy
-  357  vagrant up phpweb
-  358  vagrant ssh phpweb
-  359  vagrant destroy
-  360  vagrant up phpweb
-  361  vagrant ssh phpweb
-  362  vagrant destroy
-  363  vagrant up phpweb
-  364  vagrant ssh phpweb
-  365  vagrant destroy
-  366  vagrant status
-  367  vagrant up
-  368  vagrant ssh phpweb
-  369  vagrant destroy
-  370  vagrant status
-  371  vagrant ssh phpweb
-  372  vagrant up phpweb
-  373  vagrant ssh phpweb
-  374  vagrant destroy phpweb
-  375  sudo apt-get update
-  376  vagrant status
-  377  vagrant up
-  378  vagrant status
-  379  vagrant reload
-  380  vagrant status
-  381  vagrant ssh ansible
-  382  vagrant reload
-  383  vagrant ssh ansible
-  384  vagrant provisioning ansible
-  385  vagrant provision ansible
-  386  vagrant ssh ansible
-  387  vagrant destroy ansible
-  388  vagrant destroy
-  389  vagrant up
-  390  vagrant ssh ansible
-  391  vagrant halt
-  392  sudo dpkg -i *.deb
-  393  vagrant status
-  394  ls
-  395  vagrant up ansible phpweb
-  396  vagrant provision mysqlserver
-  397  vagrant status
-  398  vagrant up mysqlserver mysqldb
-  399  vagrant status
-  400  vagrant ssh phpweb
-  401  vagrant reload phpweb
-  402  exit
-  403  vagrant global-status
-  404  vagrant global-status --prune
-  405  vagrant halt d752f30
-  406  vagrant global-status
-  407  vagrant global-status up
-  408  vagrant global-status
-  409  vagrant status
-  410  vagrant destroy
-  411  vagrant status
-  412  vagrant
-  413  vagrant destroy
-  414  vagrant destroy
-  415  vagrant up
-  416  vagrant up ansible
-  417  vagrant provision ansible
-  418  vagrant destroy ansible
-  419  vagrant up ansible
-  420  vagrant provision ansible
-  421  vagrant status
-  422  vagrant up phpweb
-  423  vagrant halt
-  424  vagrant up
-  425  vagrant reload phpweb
-  426  vagrant status
-  427  vagrant provision ansible
-  428  vagrant provision phpweb
-  429  vagrant status
-  430  vagrant up
-  431  vagrant box list
-  432  vagrant box prune
-  433  vagrant box remove hashicorp/precise64
-  434  vagrant box list
-  435  vagrant halt
-  436  ls
-  437  TODO
-  438  rules
+  
+  # ffmpeg para twitch
+  
   439  exec ffmpeg.install
   440  sudo dnf install ffmpeg
   441  sudo apt-get install ffmpeg
-  442  vagrant status
-  443  vagrant up docker
-  444  vagrant status
-  445  vagrant ssh docker
-  446  apt-get install ansible
-  447  sudo apt-get install ansible
-  448  ansible --version
-  449  vagrant status
-  450  vagrant up mysqlserver
-  451  vagrant halt
-  452  vagrant destroy
-  453  vagrant status
-  454  vagrant status
-  455  vagrant wordpress up
-  456  vagrant status
-  457  vagrant wordpress up
-  458  vagrant up wordpress
+  
+  # comandos ansible
+  
   459  ansible wordpress -u vagrant -i hosts -m shell -a 'echo Hello, Word'
   460  ansible wordpress -u vagrant --private-key .vagrant/machines/wordpress/virtualbox/private_key -i hosts -m shell -a 'echo Hello, Word'
   461  ansible -vvvv wordpress -u vagrant --private-key .vagrant/machines/wordpress/virtualbox/private_key -i hosts -m shell -a 'echo Hello, Word'
@@ -473,78 +76,19 @@
   473  vagrant ssh wordpress
   474  vagrant status
   475  vagrant up
+  
+  # criar ssh keygen
+  
   476  mkdir ssh-keys
   477  cd ssh-keys
   478  ssh-keygen -t rsa
   479  ssh-copy-id -i vagrant_id_rsa.pub vagrant@192.168.56.0
   480  ansible-playbook provisioning.yml -u vagrant -i hosts --private-key .vagrant/machines/wordpress/virtualbox/private_key
-  481  cd ..
-  482  ansible-playbook provisioning.yml -u vagrant -i hosts --private-key .vagrant/machines/wordpress/virtualbox/private_key
-  483  vagrant ssh wordpress
-  484  ansible-playbook provisioning.yml -u vagrant -i hosts --private-key .vagrant/machines/wordpress/virtualbox/private_key
-  485  ls
-  486  cd Documentos
-  487  ls
-  488  cd Ansible_course
-  489  ls
-  490  vagrant status
-  491  vagrant up
-  492  ansible-playbook provisioning.yml -u vagrant -i hosts --private-key .vagrant/machines/wordpress/virtualbox/private_key
-  493  ansible-playbook provisioning.yml -i hosts
-  494  ansible-playbook provisioning2.yml -i hosts
-  495  vagrant ssh
-  496  ansible-playbook provisioning2.yml -i hosts
-  497  vagrant ssh
-  498  cd Documentos
-  499  ls
-  500  cd Ansible_course
-  501  vagrant up
-  502  vagrant status
-  503  ansible-playbook provisioning2.yml -i hosts
-  504  vagrant ssh
-  505  ansible-playbook provisioning2.yml -i hosts
-  506  vagrant ssh
-  507  ansible-playbook provisioning2.yml -i hosts
-  508  vagrant ssh
-  509  ansible-playbook provisioning2.yml -i hosts
-  510  vagrant ssh
-  511  ansible-playbook provisioning2.yml -i hosts
-  512  vagrant ssh
-  513  ansible-playbook provisioning2.yml -i hosts
-  514  vagrant ssh
-  515  ansible-playbook provisioning2.yml -i hosts
-  516  vagrant ssh
-  517  ansible-playbook provisioning2.yml -i hosts
-  518  vagrant ssh
-  519  vagrant reload
-  520  ansible-playbook provisioning2.yml -i hosts
-  521  vagrant ssh
+  
+  # comando final ansible e copiar codigo do terminal
+  
   522  ansible-playbook provisioning2.yml -i hosts
-  523  vagrant ssh
-  524  vagrant destroy
-  525  ifconfig
-  526  vagrant up
-  527  cd ssh-keys
-  528  ssh-keygen -t rsa
+
   529  ssh-copy-id -i vagrant_id_rsa.pub vagrant@192.168.56.10
-  530  ansible wordpress -i hosts -u vagrant --private-key ssh-keys/vagrant_id_rsa -m ping -m shell -a 'echo Hello, World'
-  531  ansible-playbook provisioning2.yml -i hosts
-  532  cd ..
-  533  ansible-playbook provisioning2.yml -i hosts
-  534  vagrant status
-  535  vagrant ssh
-  536  ansible-playbook provisioning2.yml -i hosts
-  537  vagrant destroy
-  538  vagrant up
-  539  ansible-playbook provisioning2.yml -i hosts
-  540  cd ssh-keys
-  541  ssh-keygen -t rsa
-  542  ssh-copy-id -i vagrant_id_rsa.pub vagrant@192.168.56.10
-  543  ansible-playbook provisioning2.yml -i hosts
-  544  cd ..
-  545  ansible-playbook provisioning2.yml -i hosts
-  546  vagrant ssh
-  547  ansible-playbook provisioning2.yml -i hosts
-  548  ansible-playbook provisioning3.yml -i hosts
   549  history
   550  history > commands.txt
