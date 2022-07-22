@@ -1,3 +1,7 @@
 [wordpress]
 192.168.56.10 ansible_user=vagrant ansible_ssh_private_key_file="/home/lucasdejard/Documentos/Ansible_course/ssh-keys/vagrant_id_rsa"
 
+[database]
+192.168.56.11 ansible_user=vagrant ansible_ssh_private_key_file="/home/lucasdejard/Documentos/Ansible_course/ssh-keys/vagrant_id_rsa"
+
+
